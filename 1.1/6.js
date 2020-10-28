@@ -35,9 +35,7 @@ function sumOfLargerSquares(a, b, c) {
 }
 
 // 1.4
-function a_plus_abs_b(a, b) {
-    return (b >= 0 ? a + b : a - b);
-}
+// a_plus_abs_b(5, -4) => (-4 >= 0 ? plus : minus)(5, -4) => minus(5, -4) => 5 - -4 => 9
 
 // 1.5
 // applicative-order evaluation: infinite loop
